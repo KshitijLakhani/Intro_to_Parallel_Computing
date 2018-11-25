@@ -1,0 +1,33 @@
+The file student_func_opt.cu is the backup original file which gives correct answer.
+The file student_func.cu is the one that I was trying to edit to get optimized performance. 
+(No, I have not mixed up the names. They are correct)
+
+You can do the following to increases speed 
+1) Filter in constant memory
+ 
+2 posts on it to begin with - 
+https://discussions.udacity.com/t/how-i-got-a-hair-below-0-54ms-on-pset-2/83714
+http://cuda-programming.blogspot.com/2013/01/what-is-constant-memory-in-cuda.html
+
+2) Image in shared memory - 
+https://discussions.udacity.com/t/how-i-got-a-hair-below-0-54ms-on-pset-2/83714
+(You will have to find how it's done)
+
+3) Not separately processing the channels but doing it as one whole thing - 
+(You will have to find ou how it's done)
+https://discussions.udacity.com/t/how-i-got-a-hair-below-0-54ms-on-pset-2/83714
+
+SOme other methods too
+
+Best way is to read the forums. Lot of information there. Few interesting and important links - 
+https://discussions.udacity.com/t/problem-set-2-shared-memory-not-working/47345
+https://discussions.udacity.com/t/problem-set-2-share-memory/30279
+https://discussions.udacity.com/t/nvidia-contest-red-green-blue-and-alpha-top-scorers-announced/90707/22
+https://pastebin.com/XfTqSgtv  (one of the winners' is code)
+https://discussions.udacity.com/t/are-we-allowed-to-remove-the-separatechannels-recombinechannles-functions/84918
+https://discussions.udacity.com/t/how-i-got-0-30-ms-in-unit-2-without-using-shared-memory/84444/7
+https://discussions.udacity.com/t/need-for-separating-colour-channels/84548
+https://discussions.udacity.com/t/problem-set-2-much-faster-as-aos/42897
+https://discussions.udacity.com/t/how-i-got-a-hair-below-0-54ms-on-pset-2/83714https://discussions.udacity.com/t/how-i-got-a-hair-below-0-54ms-on-pset-2/83714
+(Awesome post and thread)
+
